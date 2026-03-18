@@ -58,8 +58,7 @@ if (isset($_GET['search']) && !empty($_GET['search'])) {
 
 <h2>My Browser</h2>
 
-<form method="GET" action="/webSearch/index.php">
-
+<form method="GET" action="">
     <label for="search">Search:</label>
 
     <input type="text" id="search" name="search" value="">
